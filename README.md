@@ -1,7 +1,7 @@
 # php_oop_project react와 연동해서 제작해보기
 
-- client
-- server
+- frontend
+- backend
 
 client와 server를 따로 나누어서 이번에는 laravel쪽에서가 아닌
 기본적으로 php를 사용해서 api를 만들어보려고 합니다
