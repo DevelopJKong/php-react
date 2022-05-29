@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "developjkong/eclair",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DevelopJKong/php-package.git",
+                "reference": "73ce1b043c1858bc90980768695857152abb3f41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DevelopJKong/php-package/zipball/73ce1b043c1858bc90980768695857152abb3f41",
+                "reference": "73ce1b043c1858bc90980768695857152abb3f41",
+                "shasum": ""
+            },
+            "time": "2022-05-24T14:25:45+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Eclair\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DevelopJKong",
+                    "email": "ybaram40@gmail.com"
+                }
+            ],
+            "description": "Eclair is a Simple PHP micro framework",
+            "support": {
+                "issues": "https://github.com/DevelopJKong/php-package/issues",
+                "source": "https://github.com/DevelopJKong/php-package/tree/main"
+            },
+            "install-path": "../developjkong/eclair"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

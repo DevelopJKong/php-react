@@ -1,0 +1,162 @@
+TypeError: array_values(): Argument #1 ($array) must be of type array, null given in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Controllers\AuthController.php:13
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Controllers\AuthController.php(13): array_values(NULL)
+#1 [internal function]: App\Controllers\AuthController::login()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+TypeError: array_values(): Argument #1 ($array) must be of type array, null given in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Controllers\AuthController.php:13
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Controllers\AuthController.php(13): array_values(NULL)
+#1 [internal function]: App\Controllers\AuthController::login()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}
+Error: Class "App\Providers\ThemeServiceProvider" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php:13
+Stack trace:
+#0 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\T...', 3)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\vendor\developjkong\eclair\src\Application.php(13): array_walk(Array, Object(Closure))
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\bootstrap\app.php(6): Eclair\Application->__construct(Array)
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_react_try\server\public\index.php(5): require_once('C:\\Users\\tbara\\...')
+#4 {main}

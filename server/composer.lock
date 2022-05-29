@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1258fde90f3d017f153bd707f470213",
+    "packages": [
+        {
+            "name": "developjkong/eclair",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DevelopJKong/php-package.git",
+                "reference": "73ce1b043c1858bc90980768695857152abb3f41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DevelopJKong/php-package/zipball/73ce1b043c1858bc90980768695857152abb3f41",
+                "reference": "73ce1b043c1858bc90980768695857152abb3f41",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eclair\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DevelopJKong",
+                    "email": "ybaram40@gmail.com"
+                }
+            ],
+            "description": "Eclair is a Simple PHP micro framework",
+            "support": {
+                "issues": "https://github.com/DevelopJKong/php-package/issues",
+                "source": "https://github.com/DevelopJKong/php-package/tree/main"
+            },
+            "time": "2022-05-24T14:25:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "developjkong/eclair": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

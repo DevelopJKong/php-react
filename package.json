@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "server": "cd server && php -S localhost:8000 -t public",
+    "client": "cd client && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  }
+}
